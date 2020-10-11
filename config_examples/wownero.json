@@ -6,8 +6,8 @@
 	"coinUnits": 100000000000,
 	"coinDecimalPlaces": 4,
 	"coinDifficultyTarget": 300,
-	"blockchainExplorer": "http://blockexplorer.arqma.com/block/{id}",
-	"transactionExplorer": "http://blockexplorer.arqma.com/tx/{id}",
+	"blockchainExplorer": "https://explore.wownero.com/block/{id}",
+	"transactionExplorer": "https://explore.wownero.com/tx/{id}",
 	"daemonType": "default",
 	"cnAlgorithm": "randomx",
 	"isRandomX": true,
@@ -31,7 +31,7 @@
 		"mergedMining": false,
 		"clusterForks": "auto",
 		"poolAddress": "Your pool wallet address",
-		"intAddressPrefix": 19,
+		"intAddressPrefix": 6810,
 		"blockRefreshInterval": 1000,
 		"minerTimeout": 900,
 		"sslCert": "./cert.pem",
@@ -75,9 +75,9 @@
 			"maxJump": 100
 		},
 		"paymentId": {
-			"addressSeparator": ".",
-			"validation": false,
-			"validations": ["1,16", "64"],
+			"addressSeparator": "",
+			"validation": true,
+			"validations": ["64"],
 			"ban": true
 		},
 		"fixedDiff": {
